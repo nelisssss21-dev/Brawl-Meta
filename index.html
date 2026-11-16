@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Meta — Чат-бот для пика героев</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 BRAWL META</h1>
+            <p class="subtitle">Чат-бот для пика героев под ранговый режим</p>
+        </header>
+
+        <div class="menu" id="mainMenu">
+            <h2>Что умеет этот бот?</h2>
+            <button class="menu-btn" onclick="showPickForMap()">🗺️ 1. Подобрать пик под карту</button>
+            <button class="menu-btn" onclick="showCounterPick()">⚔️ 2. Контр-пик против героя</button>
+            <button class="menu-btn" onclick="showHistory()">📊 3. Посмотреть историю выборов</button>
+            <button class="menu-btn exit-btn" onclick="exitApp()">🚪 4. Выйти</button>
+        </div>
+
+        <div class="content" id="content" style="display: none;">
+            <div id="output"></div>
+            <button class="back-btn" onclick="showMenu()">⬅️ Назад в меню</button>
+        </div>
+
+        <div class="exit-screen" id="exitScreen" style="display: none;">
+            <h2>👋 Удачи в ранговом режиме!</h2>
+            <button class="menu-btn" onclick="restartApp()">🔄 Запустить снова</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

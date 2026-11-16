@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh; display: flex; justify-content: center; align-items: center; padding: 20px;
+}
+.container {
+    background: white; border-radius: 20px; padding: 40px; max-width: 600px; width: 100%;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+header { text-align: center; margin-bottom: 30px; }
+header h1 { color: #667eea; font-size: 2.5em; margin-bottom: 10px; }
+.subtitle { color: #666; font-size: 1.1em; }
+.menu h2 { color: #333; margin-bottom: 20px; text-align: center; }
+.menu-btn {
+    display: block; width: 100%; padding: 15px; margin: 10px 0; background: #667eea; color: white;
+    border: none; border-radius: 10px; font-size: 1.1em; cursor: pointer; transition: 0.3s;
+}
+.menu-btn:hover { background: #5568d3; transform: translateY(-2px); }
+.exit-btn { background: #e74c3c; }
+.exit-btn:hover { background: #c0392b; }
+.content { margin-top: 20px; }
+#output { background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 20px; min-height: 200px; }
+.output-section { margin: 15px 0; }
+.output-section h3 { color: #667eea; margin-bottom: 10px; }
+.hero-list { list-style: none; }
+.hero-list li { padding: 8px; margin: 5px 0; background: white; border-radius: 5px; border-left: 4px solid #667eea; }
+.anti-pick { border-left-color: #e74c3c; }
+.counter-recommendation { background: #d4edda; padding: 15px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #28a745; }
+.back-btn { display: block; width: 100%; padding: 12px; background: #6c757d; color: white; border: none; border-radius: 10px; cursor: pointer; }
+.exit-screen { text-align: center; padding: 40px; }
+.stats { background: #e9ecef; padding: 15px; border-radius: 10px; margin: 15px 0; }
+img { max-width: 100%; height: auto; display: block; margin: 10px auto; border-radius: 10px; }
